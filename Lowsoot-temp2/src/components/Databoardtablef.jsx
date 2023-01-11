@@ -79,7 +79,7 @@ export function Databoardtablef() {
                 appearance: 'none',
                 border: 'solid 0.5px',
                 padding: '8px',
-                margin: '0 5rem 0 20rem',
+                margin: '0 0rem 0 2rem',
                 borderRadius: '4px',
                 marginRight: '10rem',
               }}
@@ -98,7 +98,7 @@ export function Databoardtablef() {
               style={{
                 appearance: 'none',
                 border: 'solid 0.5px',
-                margin: '0 1rem 0 10rem',
+                margin: '0 2rem 0 18rem',
                 padding: '8px',
                 borderRadius: '4px',
               }}

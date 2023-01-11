@@ -27,6 +27,20 @@ export function Dashboard() {
           <h1 className='dashheader'>
             <span className='introjs__3'>Visualization</span>
           </h1>
+          {name === 'Building' ? (
+            <div className='summaryparams'>
+              <div className='summaryparam'>
+                <p className='summaryparam__title'>`Total Building Space`</p>
+                <p className='summaryparam__value'>`19000 KWh` </p>
+              </div>
+              <div className='summaryparam'>
+                <p className='summaryparam__title'>`Total Building Space`</p>
+                <p className='summaryparam__value'>`19000 KWh` </p>
+              </div>
+            </div>
+          ) : (
+            <Dashparameters />
+          )}
           <Dashparameters />
           <div className='dashgraphs__cont'>
             {name === 'travel' && <Dashgraph />}
