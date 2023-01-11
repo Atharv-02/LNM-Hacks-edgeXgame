@@ -78,7 +78,7 @@ export function Databoardtablep() {
                 appearance: 'none',
                 border: 'solid 0.5px',
                 padding: '8px',
-                margin: '0 0 0 30rem',
+                margin: '0 0 0 25rem',
                 borderRadius: '4px',
               }}
               required={true}
@@ -104,7 +104,7 @@ export function Databoardtablep() {
               style={{
                 appearance: 'none',
                 border: 'solid 0.5px',
-                margin: '0 1.5rem 0 50rem',
+                margin: '0 1.5rem 0 10rem',
                 padding: '8px',
                 borderRadius: '4px',
               }}
