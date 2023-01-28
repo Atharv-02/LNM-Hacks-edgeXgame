@@ -1,0 +1,87 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_NftId",
+        "type": "uint256"
+      }
+    ],
+    "name": "buy",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_title",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_desc",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_price",
+        "type": "uint256"
+      }
+    ],
+    "name": "registerNft",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "Nfts",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "desc",
+        "type": "string"
+      },
+      {
+        "internalType": "address payable",
+        "name": "seller",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "NftId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "buyer",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
